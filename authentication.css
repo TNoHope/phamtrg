@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ body {
+    background-color: #79c4e3;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__img {
+    width: 600px;
+    position: relative;
+    left: -250px;
+}
+
+.authen-body {
+    width: 400px;
+        background-color: #fff;
+        height: 490px;
+        left: 610px;
+        position: absolute;
+        top: 100px;
+        border-radius: 5px;
+}
+
+.authen-body-signup {
+    width: 400px;
+        background-color: #fff;
+        height: 490px;
+        left: 700px;
+        position: absolute;
+        top: 100px;
+        border-radius: 5px;
+}
+
+
+.authen-header {
+    padding: 20px 25px;
+}
+
+.divided {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.authen-btn {
+    padding: 10px 25px 8px 25px;
+    user-select: none;
+}
+
+
+.authen-btn a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.authen-google-btn {
+    width: 50px;
+    height: 100%;
+    padding: 5px 20px 5px 5px;
+}
+
+.authen-facebook-btn {
+    width: 50px;
+    height: 100%;
+    padding: 5px 20px 5px 5px;
+}
+
+.authen-google-btn-container {
+    background-color:rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer a {
+    color: dodgerblue;
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
+
+.authen-text {
+    padding: 10px 25px 0 25px;
+}
+
+.authen-text input{
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+.authen-submit {
+    background: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: whitesmoke;
+    transition: linear 0.3s;
+    padding: 5px 0;
+    height: 40px;
+}
+
+.authen-submit:hover {
+    color: #000;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .main__img {
+        width: 100%;
+        margin: auto;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .authen-body {
+        width: 90%;
+        left: 0;
+        right: 0;
+        top: 415px;
+        margin: auto;
+        height: 460px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .authen-body-signup {
+        width: 90%;
+        left: 0;
+        right: 0;
+        top: 415px;
+        margin: auto;
+        height: 495px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .authen-text input {
+        margin: 10px 0;
+    }
+}
